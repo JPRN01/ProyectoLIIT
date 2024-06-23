@@ -1,0 +1,3 @@
+<app-authorized-menu *ngIf="isLoggedIn()"></app-authorized-menu>
+<app-not-authorized-menu *ngIf="!isLoggedIn()"></app-not-authorized-menu>
+<router-outlet></router-outlet>
